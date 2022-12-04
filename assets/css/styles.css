@@ -1,0 +1,498 @@
+/* Fonts */
+
+
+/* Webfont: SutonnyOMJ */
+
+@font-face {
+    font-family: 'SutonnyOMJ';
+    src: url('../fonts/bn/SutonnyOMJ.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/bn/SutonnyOMJ.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/bn/SutonnyOMJ.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/bn/SutonnyOMJ.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/bn/SutonnyOMJ.svg#SutonnyOMJ') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*Reset CSS*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: #F1F1F2;
+    background: linear-gradient(140deg, #F1F1F2 25%, #BCBABE);
+    padding: 0;
+    margin: 0;
+}
+
+
+/**
+ * Main Styles
+ */
+
+.header,
+#slider-container {
+    height: 90vh;
+    max-height: 90vh;
+    /*background: url('../img/slider/1.jpg');
+    background-size: cover;*/
+    overflow: hidden !important;
+}
+
+#slider-container {
+    position: absolute;
+    width: 100%;
+}
+
+.right-top-bar {
+ padding-right: 15px;
+}
+
+.right-top-bar p {
+    font-size: 25px;
+    color: #094f78;
+}
+
+.right-top-bar a img {
+    width: 120px;
+    height: 50px;
+}
+
+.col-md-6.col-md-offset-6.right-top-bar {padding-left: 0;}
+
+.right-top-bar a {
+    font-size: 30px;
+    background: url("../img/tiles-bw.png"), linear-gradient(140deg, #00C4CC 25%, #6E44BD);
+    padding: 7px 10px;
+    border-radius: 7px;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.right-top-bar a:hover {
+    color: #f00;
+}
+
+.logo-section {}
+
+.logo-section .site-title {}
+
+.logo-section .site-title h2 {
+    font-family: 'TrajanPro';
+    font-size: 35px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 3px 7px #000;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+}
+
+
+/**
+ * Main Content
+ */
+
+.main-content-section {}
+
+.main-content {
+    text-align: justify;
+    font-family: 'SutonnyOMJ';
+}
+
+.main-content .section-title {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000;
+}
+
+.main-content .section-details {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.aritcle-title {
+    font-size: 35px;
+}
+
+
+/**
+ * Sidebar
+ */
+
+.side-bar {}
+
+.sidebar-section {
+    background: url("../img/tiles-bw.png"), linear-gradient(-140deg, #00C4CC 25%, #6E44BD);
+    border-radius: 10px;
+}
+
+.sidebar-section h3 {
+    padding-left: 5px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.table.table-hover {
+    color: #fff;
+}
+
+.table.table-hover tr:hover {
+    color: blue;
+}
+
+
+
+/**
+ * Navigation menu
+ */
+
+.navbar-default {
+    background: url("../img/tiles-bw.png"), linear-gradient(140deg, #00C4CC 25%, #6E44BD);
+    margin-top: -70px;
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'TrajanPro';
+    color: #fff;
+    line-height: 118px;
+    font-size: 35px;
+}
+
+.navbar-default .navbar-nav>li:hover>a {
+    color: #f00;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background: #266d97;
+}
+
+.dropdown-menu>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+
+/**
+ * Footer
+ */
+
+.footer {
+    height: 10vh;
+    /*background: #266d97;*/
+    background: url("../img/tiles-bw.png"), linear-gradient(140deg, #00C4CC 25%, #6E44BD);
+    color: #fff;
+}
+
+.footer a,
+.footer p {
+    color: #fff;
+    line-height: 10vh !important;
+}
+
+.footer .copyright-text {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.social-link {
+    list-style-type: none;
+}
+
+.social-link li {
+    display: inline-block;
+    padding-right: 20px;
+  line-height: 10vh;
+}
+
+.social-link li:last-child {
+    padding-right: 0;
+}
+
+.social-link li a {
+    font-size: 20px;
+}
+
+
+/**
+ * Camp Page
+ */
+
+.person-info {
+    padding: 30px 10px;
+    border-bottom: 2px dotted #000;
+}
+
+.person-info:last-child {
+    border-bottom: none;
+}
+
+.person-info:hover {}
+
+.person-thumb {
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    box-shadow: 0 0 5px #000;
+    border-radius: 4px;
+}
+
+.person-details {
+    padding-left: 10px;
+}
+
+.person-name {
+    font-family: 'TrajanPro';
+    font-size: 25px;
+}
+
+.person-father {
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.person-id {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.search-person {}
+
+input#search-id {
+    width: 200px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #f00;
+    border-radius: 3px;
+    font-family: Arial;
+}
+
+.show-person-details a {
+    background: url("../img/tiles-bw.png"), linear-gradient(350deg, #6E44BD 75%, #00C4CC);
+    padding: 7px 10px;
+    border-radius: 7px;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.show-person-details a:hover {
+    background: url("../img/tiles-bw.png"), linear-gradient(120deg, #6E44BD 75%, #00C4CC);
+}
+
+/**
+ * Search Rohingya
+ */
+ 
+ #fingerprint {
+    width: 100%;
+    height: 50px;
+ }
+
+ #search-user {
+    width: 100%;
+    height: 50px;
+ }
+.search-by-id {
+    float: right;
+}
+
+/**
+ * Contact Page
+ */
+
+.contact-form {}
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    padding-top: 5px;
+    margin-top: 7px;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form button[type="submit"] {
+    margin-bottom: 10px;
+}
+
+/**
+ * Responsive Design
+ */
+
+@media (max-width: 1200px) {
+    .navbar-default {
+    background: url("../img/tiles-bw.png"), linear-gradient(140deg, #00C4CC 25%, #6E44BD);
+    margin-top: -50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'TrajanPro';
+    color: #fff;
+    line-height: 70px;
+    font-size: 30px;
+}
+}
+
+@media (max-width: 991px) {
+    .navbar-default {
+    background: url("../img/tiles-bw.png"), linear-gradient(140deg, #00C4CC 25%, #6E44BD);
+    margin-top: -50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'TrajanPro';
+    color: #fff;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+}
